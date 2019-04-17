@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es" class="mw-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BANCO DE SANTIAGO DEL CERRO</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="mw-100">
+    
+    <!-- As a link -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">BANCO DE SANTIAGO DEL CERRO</a>
+    </nav>
+
+    <main class="container-fluid px-0">
+        <section class="row mx-0">
+            <article class="col-12 px-0">
+                <img src="img/principal.png" class="w-100" alt="imagen principal">
+            </article>
+        </section>
+        <section class="row center mt-5 mx-0">
+            <article class="col-8 mx-auto">
+                <img src="img/primera_1.png" class="w-100 border" alt="primera imagen">
+            </article>
+        </section>
+
+        <section class="row mt-3 mx-0">
+            <div class="col-2"></div>
+            <article class="col-5 pr-0">
+                <img src="img/segunda_1.png" class="w-100 border border-right-0" alt="segunda imagen">
+            </article>
+            <article class="col-3  pl-0">
+                <div class="w-100 h-100 border border-left-0 text-center">
+                    <p>Tu mejor momento, es la única Débito Personalizada de tu cuenta corriente</p>
+                    <img src="img/segunda_3.png" class="w-75" alt="tercera imagen">
+                    <button class="btn btn-success">DISEÑA LA TUYA AQUI</button>
+                </div>
+            </article>
+        </section>
+        <section class="row mt-5 mx-0">
+            <div class="col-12 text-center"><h2>Promociones del mes</h2></div>
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card h-100">
+                            <img src="img/foto1.png" class="card-img-top" alt="foto1">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h4>Oportunidades únicas en viajes Falabella</h4>
+                                    Accede a beneficios y promociones exclusivas utilizando
+                                    tu Débito Bar
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 ">
+                        <div class="card h-100">
+                            <img src="img/foto2.png" class="card-img-top" alt="foto2">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h4>25% dcto en medicamentos</h4>
+                                    Lunes, Sábados y Domingos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100">
+                            <img src="img/foto3.png" class="card-img-top" alt="foto3">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h4>Días al 20% dcto en Tottus</h4>
+                                    20% dcto todos los martes en Lácteos y Quesos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row bg-light pb-5 mt-5 mx-0 align-center d-flex justify-content-center">
+            <div class="col-12 mt-3">
+                <p class="display-4 ml-4">Simula tu <strong>CRÉDITO DE CONSUMO</strong></p>
+            </div>
+            <div class="col-7 mt-5 pb-5">
+                <form id="formulario">
+                    <h3 class="text-center">Datos crédito</h3>
+                      <!-- datos credito -->
+                    <div class="form-row mt-3">
+                        <div class="col">
+                            <input type="number" name="monto" id="monto" class="form-control" placeholder="Monto">
+                        </div>
+                        <div class="col">
+                            <input type="number" name="cuotas" id="cuotas" class="form-control" placeholder="Número de cuotas">
+                        </div>
+                    </div>
+                    <div class="form-row mt-3">
+                        <div class="col">
+                            <label for="">Fecha de primer vencimiento</label>
+                            <input type="date" name="fvencimiento" id="fvencimiento" class="form-control">
+                        </div>
+                        <div class="col mt-1">
+                            <div class="d-block">
+                                <input type="checkbox" class="mr-3 ml-5"><label>Seguro de devagramen</label>
+                            </div>
+                            <div class="d-block">
+                                <input type="checkbox" class="mr-3 ml-5"><label>Seguro de cesantía</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Datos personales -->
+                    <h3 class="my-4 text-center">Datos personales</h3>
+                    <div class="form-row mt-3">
+                            <div class="col">
+                                <input type="text" class="form-control" name="run" id="run" placeholder="RUN ej: xxxxxxxx-x">
+                            </div>
+                            <div class="col text-center">
+                                <input type="number" placeholder="Celular" name="celular" id="celular" class="form-control mr-3">
+                            </div>
+                        </div>
+                    <div class="form-row mt-3">
+                        <div class="col">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                        <div class="col text-center">
+                            <input type="text" placeholder="Nombre Apellido" name="nombre" id="nombre" class="form-control mr-3">
+                        </div>
+                    </div>
+                    <div class="form-row mt-3">
+                        <div class="col">
+                            <label for="fnacimiento">Fecha de nacimiento</label>
+                            <input type="date" class="form-control" name="fnacimiento" id="fnacimiento">
+                        </div>
+                        <div class="col">
+                            <label for="renta">Renta líquida</label>
+                            <select name="renta" id="renta" class="form-control">
+                                <option value="0 - 399.999">0 - 399.999</option>
+                                <option value="400.000 - 799.999">400.000 - 799.999</option>
+                                <option value="800.000 - 1.299.999">800.000 - 1.299.999</option>
+                                <option value="1.300.000 - 2.499.999">1.300.000 - 2.499.999</option>
+                                <option value="2.500.000 - mayor">2.500.000 - mayor</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row mt-4">
+                        <div class="col text-center">
+                            <input type="submit" class="btn btn-primary" value="Enviar">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="row">
+            <article class="col">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </article>
+        </section>
+    </main>
+  
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
